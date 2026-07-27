@@ -23,7 +23,7 @@ The workflow includes:
 
 ## 🚀 Features
 
-- Cleaned and preprocessed 20K+ product reviews
+- Cleaned and preprocessed 100K+ product reviews
 - Removed HTML tags, emojis, punctuation, numbers, and extra spaces
 - Converted text to lowercase
 - Tokenization
