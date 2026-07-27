@@ -2,8 +2,8 @@ import streamlit as st
 import joblib
 
 # Load pre-trained artifacts (do NOT retrain/save inside the app)
-model = joblib.load(r"C:\Users\adity\Downloads\sentiment_model.pkl")
-vectorizer = joblib.load(r"C:\Users\adity\Downloads\tfidf_vectorizer.pkl")
+model = joblib.load("sentiment_model.pkl")
+vectorizer = joblib.load("tfidf_vectorizer.pkl")
 
 st.title("📊 Flipkart Product Review Sentiment Analysis")
 
